@@ -8,8 +8,12 @@ body {
 }
 
 .container {
-	width: 1174px;
+	width: 1170px;
 	margin: 0 auto;
+}
+.header {
+	background-color: rgba(255,255,255,0.75);
+	padding: 25px 0;
 }
 [class*="col-"] {
 	float: left;
