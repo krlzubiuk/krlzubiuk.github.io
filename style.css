@@ -29,3 +29,27 @@ body {
 	clear: both;
 	display: block;
 }
+.menu li {
+	width: 25%;
+	
+	float: left;
+	border-left: 1px solid #2c71b8;
+}
+.menu li:last-child {
+	border-right: 1px solid #2c71b8;
+
+}
+.menu a {
+	display: block;
+	height: 50px;
+	text-decoration: none;
+	color:#2c71b8;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 300;
+	font-size: 21px;
+}
+.menu a:hover {
+	background-color:#2c71b8;
+	color: white;
+}
