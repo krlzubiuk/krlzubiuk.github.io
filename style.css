@@ -24,6 +24,9 @@ body {
 .col-md-6 {
 	width: 50%;
 }
+.col-md-9 {
+	width: 75%;
+}
 .row:after {
 	content: "";
 	clear: both;
