@@ -32,7 +32,7 @@ body {
 }
 .col-md-4 {
     width:33.3%;
-    margin-left: 30px;
+
 }
 .col-md-6 {
     width: 50%;
@@ -286,5 +286,8 @@ body {
 }
 .add-to-cart {
     display: inline-block;
+}
+.device1 {
+    padding-left: 30px;
 }
 
