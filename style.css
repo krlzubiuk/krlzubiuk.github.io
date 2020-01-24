@@ -289,5 +289,48 @@ body {
 }
 .device1 {
     padding-left: 30px;
+    padding-bottom: 30px;
 }
 
+
+
+
+}
+.bread {
+    display: block;
+
+}
+.bread1 span {
+    color: #82a4cf;
+}
+.bread h3 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 25px;
+    float: left;
+}
+.sort {
+    float: right;
+    display: block;
+    margin-top: 45px;
+    font-size: 14px;
+
+
+
+}
+.sort select {
+    width: 270;
+    height: 40px;
+    background-color:#2c71b8;
+    color: white;
+    font-size: 21px;
+}
+.sort:hover select  {
+
+
+}
+.sort select:hover  {
+    color: white;
+    background-color:#2c71b8;
+}
