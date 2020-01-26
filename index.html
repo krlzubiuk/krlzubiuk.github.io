@@ -2,15 +2,350 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>js</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic,greek" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <script src="script2.js">
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"><div class="logo"><a href=""><img src="images/logo.png" alt="google_logo"></a></div>
+            </div>
+                <div class="col-md-6"><nav>
+                    <ul class="menu row">
+                    <li><a href="">home</a></li>
+                    <li><a href="" class="submenu-link">products <img src="images/arow_down.png" alt=""></a>
+                    <ul class="submenu">
+                        <li><a href="">product1</a></li>
+                        <li><a href="">product2</a></li>
+                        <li><a href="">product3</a></li>
+                        <li><a href="">product4</a></li>
+                        <li><a href="">product5</a></li>
+                    </ul></li>
+                    <li><a href="">payment</a></li>
+                    <li><a href="">shipping</a></li>
+                </ul>
+                </nav></div>
+                <div class="col-md-3">
+                    <div class="col-md-9 ">
+                        <div class="search">
+                            <input type="text" class="col-md-9 search-inp" value="search">
+                            <button class="col-md-3 sb"> <img src="images/search_white.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+
+                        <div class="cart"><a href=""><img src="images/cart_blue.png" alt=""></a><div class="counter">4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+        <div class="caroosel"></div>
+
+
+
+    <main class="main">
+      <div class="container row">
+          <div class="col-md-3">
+        <div class="sidebar">
+            <ul>device type
+            <li>laptop</li>
+            <li>tablet</li>
+        </ul>
+        <ul> color
+            <li>black</li>
+            <li>red</li>
+            <li>green</li>
+            <li>blue</li>
+            <li>orange</li>
+        </ul>
+        <ul> ram
+            <li>1gb</li>
+            <li>2gb</li>
+            <li>4gb</li>
+            <li>6gb</li>
+            <li>8gb</li>
+        </ul>
+        </div>
+
+    </div>
+
+    <!--products-->
+
+     <div class="col-md-9 row ">
+      <div class="bread1 row">
+        <span>Home page  >  Products  >  Laptops and Tablets</span>
+         <div class="bread">
+
+            <span><h3>Laptop and Tablets</h3></span>
+         </div>
+         <div class="sort">
+             <select name="" id="">
+                 <option value="sort-by-name">sort by name</option>
+                 <option value="sort-by-date">sort by date</option>
+                 <option value="sort-by-popularity">sort by popularity</option>
+             </select>
+         </div>
+
+      </div>
+
+      <div class="">
+          <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+      </div>
+
+            <div class="">
+                <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="">
+                <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 product-item device1">
+                <div class="product-img"><img src="images/icon(17).png" alt="">
+                <div class="product-like"><img src="images/icon(8).png" alt=""></div>
+                <div class="product-dizlike"><img src="images/icon(5).png" alt=""></div></div>
+                <div class="product-description">
+                    <p><span class="item-name">#1 device name</span></p><p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                    <p><span class="item-type">type:</span>laptop</p>
+                    <p><span class="item-screen-size">screen size:</span>7 inches</p>
+                    <p><span class=" item-ram">ram:</span>1gb</p>
+
+                <div class="product-price"><span class="item-prise"><p>$599<sup>25</sup></p></span>
+                <div class="more-details" ><button value="more details" class="item-btn">more details</button></div>
+                <div class="add-to-cart">
+                    <button class="item-btn">add to cart <div class="add-to-cart"><img src="images/cart_white.png" alt=""></div></button>
+                </div>
+                </div>
+                </div>
+            </div>
 
 
 
 
-        </script>
 
+        </div>
+      </div>
+       </main>
+    <footer class="footer">footer</footer>
 </body>
 </html>
