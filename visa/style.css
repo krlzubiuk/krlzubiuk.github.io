@@ -1,0 +1,444 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0 auto;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.col-md-2 {
+    width: 16.66%;
+     display:block;
+    margin: 0 15px;
+
+}
+.col-md-3 {
+    width: 25%;
+     display:block;
+    margin: 0 15px;
+}
+col-md-9 {
+    width: 75%;
+     display:block;
+    margin: 0 15px;
+
+}
+.col-md-5 {
+    width: 41.65%;
+     display:block;
+    margin: 0 15px;
+}
+.col-md-6 {
+    width: 50%;
+     display:block;
+    margin: 0 15px;
+}
+.col-md-4 {
+    width: 33.33%;
+    display:block;
+    margin: 0 15px;
+}
+.inner-header {
+
+    background-color: #9483db;
+    height: 75px;
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+
+    display: block;
+
+
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+
+}
+header {
+      background:  linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(img/bg1.png);
+
+}
+.menu {
+    display: flex;
+}
+
+.menu li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+.menu a {
+
+    display: block;
+
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 900;
+    text-align: center;
+
+
+}
+.menu li>a:hover {
+    border-bottom: 2px solid red;
+}
+
+.vid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.travels {
+    height: 500px;
+
+}
+
+.unic-question {
+    color: white;
+    text-align: center;
+}
+.unic-question h5 {
+    font-size: 19px;
+    margin: 15px;
+}
+.unic-question h3 {
+    font-family: open sans;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.video {
+    width: 90%;
+    height: 245px;
+    background-color: #c4c4c4;
+    border: 10px solid #9483db;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px #7668b3;
+
+}
+.wich-country {
+    margin-top: 55px;
+    display: flex;
+   justify-content: center;
+}
+.ask {
+    width: 90%;
+    height: 380px;
+    background-color: #baacf5;
+    opacity: 0.8;
+    border: 10px solid #9483db;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px #7668b3;
+    text-align: center;
+
+
+
+}
+
+.ask input {
+    width: 320px;
+    height: 42px;
+    margin-bottom: 15px;
+    background-color: #ddd6fa;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+
+}
+
+.ask1 p{
+    color: white;
+    text-align: left;
+    padding-left: 24px;
+    margin: 0 auto;
+
+}
+.qwest {
+    text-transform: uppercase;
+    color: blue;
+    font-family: open sans;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+    width: 160px;
+    height: 37px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+    border: none;
+    margin-top: 15px;
+
+}
+
+
+
+/*packages*/
+
+
+.packages {
+    height: 525px;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.package-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+}
+
+
+
+.visa-support {
+    background-color: #cdebfa;
+    text-align: center;
+    border: 4px solid #88a3d6;
+    border-radius: 4px;
+    height: 454px;
+}
+.visa-support button {
+    color: white;
+    width:  141px;
+    height: 32px;
+    background-color: #3eb5f1;
+    border: none;
+    border-radius: 3px;
+}
+.travel-us {
+    background-color: #fdd3ff;
+    text-align: center;
+    border: 4px solid #f06292;
+    border-radius: 4px;
+    height: 454px;
+}
+.travel-us button {
+    color: white;
+    width:  141px;
+    height: 32px;
+    background-color: #f06292;
+    border: none;
+    border-radius: 3px;
+}
+.help-master {
+
+    background-color: #fffab8;
+    text-align: center;
+    border: 4px solid #ffa726;
+    border-radius: 4px;
+    height: 454px;
+    padding: 0 15px;
+
+}
+.pack-text {
+    height: 257px;
+}
+.help-master button {
+    color: white;
+    width:  141px;
+    height: 32px;
+    background-color: #ffa726;
+    border: none;
+    border-radius: 3px;
+
+
+
+}
+
+.client-servise {
+    background-color: #3eb5f1;
+    color: white;
+    height: 525px;
+    padding-top: 50px;
+
+}
+
+.features {
+    list-style: none;
+    padding: 0;
+}
+.features li {
+    display: flex;
+    align-items: center;
+
+}
+.features img{
+    margin-right: 15px;
+}
+.features h5 {
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.features p {
+    margin: 0 auto;
+    font-size: 13px;
+
+}
+.price button {
+    width: 167px;
+    height: 30px;
+    color: white;
+    background-color: #f06292;
+    border: none;
+    border-radius: 3px;
+}
+.pric {
+    display: block;
+    margin-right: 21px;
+}
+.price1 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 35px;
+}
+.price1 span {
+    margin-right: 30px;
+
+}
+.price12 button {
+    width: 167px;
+    height: 30px;
+    color: white;
+    background-color: #ffa726;
+    border: none;
+    border-radius: 3px;
+}
+.price13 button {
+    width: 167px;
+    height: 30px;
+    color: white;
+    background-color: #3eb5f1;
+    border: none;
+    border-radius: 3px;
+}
+
+.unic-route {
+    background-color: #f06292;
+    height: 550px;
+    padding-top: 50px;
+    color: white;
+}
+.decision-question {
+    background-color: #ffa726;
+    color: white;
+    height: 525px;
+    padding-top: 50px;
+}
+
+
+.first-travel {
+    background-color: #707dc8;
+    height: 242px;
+    color: white;
+
+}
+.count {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+
+    background: url(img/345.png) no-repeat;
+    background-position: center;
+    font-size: 42px;
+}
+.contacts {
+    background-color: #5c6bc0;
+    color: white;
+    height: 308px;
+    padding-top: 50px;
+
+}
+.callback button {
+    width: 167px;
+    height: 30px;
+    color: white;
+    background-color: #d24a43;
+    border: none;
+    border-radius: 3px;
+    margin-top: 24px;
+}
+.contacts ul{
+    margin: 0;
+}
+.contacts a{
+    margin-left: 15px;
+}
+.callback {
+    text-align: center;
+}
+.callback input {
+    margin-top: 22px;
+    width: 376px;
+    height: 34px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.map {
+    display: flex;
+    max-width: 100%;
+}
+.inner-footer {
+    height: 124px;
+    background-color: #8575c9;
+}
+.links {display: block;}
+.links>a {
+    margin-left: 20px;
+}
+
+}
+@media (max-width: 768px) {
+    .container {
+        width: 765px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .col-md-6 {
+    width: 100%;
+     display:block;
+    margin: 0 15px;
+}
+}
+@media (max-width: 425px) {
+  .container {
+        width: 320px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .col-md-6 {
+    width: 100%;
+     display:block;
+    margin: 0 15px;
+}
+}
