@@ -53,6 +53,7 @@ button:hover {
     width: 75%;
 }
 
+
 .row1 {
     display: flex;
     flex-direction: row;
@@ -503,21 +504,19 @@ select>option:hover {
 
 
 
+@media (min-width: 1024px) and (max-width: 1170px) {
+    .container {
+        width: 1023px;
+    }
+}
 
 
-
-
-
-
-@media (min-width: 768px) and (max-width: 1170px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .container {
         width: 767px;
     }
-    .row1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    .logo{
+        max-height: 90%;
     }
 
     .col-md-4 {
@@ -532,24 +531,19 @@ select>option:hover {
     .search-inp {
         width: 70%;
     }
+
 }
 
-    @media (min-width: 425px) and (max-width: 767px) {
+    @media (min-width: 424px) and (max-width: 767px) {
         .container {
         width: 425px;
-            margin: 0 auto;
+
 
     }
-        .row1 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+       [class*="col-"] {
+    display: block;
+    width: auto;
     }
-        .product-item{
-            display: block;
-            width: 50%;
-        }
         .item-btn1 {
         margin: 0 auto;
         max-width: 80%;
@@ -557,43 +551,29 @@ select>option:hover {
         .sidebar {
            display: none;
         }
-        .col-s-6 {
-            width: 100%;
 
-        }
-        .col-s-12 {
-            width: 100%;
-
-        }
         .carousell {
             display: none;
         }
 
-        .search {
-            display: none;
-        }
-        .cart {
-            display: none;
-        }
 
 
     }
 @media (min-width: 320px) and (max-width: 424px) {
         .container {
         width: 320px;
-        margin: 0 auto;
 
+
+    }
+    [class*="col-"] {
+    display: block;
+    width: auto;
     }
      .carousell {
             display: none;
         }
 
-        .search {
-            display: none;
-        }
-        .cart {
-            display: none;
-        }
+
     .sidebar {
            display: none;
         }
