@@ -511,9 +511,9 @@ select>option:hover {
 }
 
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .container {
-        width: 767px;
+        width: 768px;
     }
     .logo{
         max-height: 90%;
@@ -528,13 +528,17 @@ select>option:hover {
         text-align: center;
         max-width: 80%;
     }
+    .item-btn1 {
+        text-align: center;
+        max-width: 80%;
+    }
     .search-inp {
         width: 70%;
     }
 
 }
 
-    @media (min-width: 424px) and (max-width: 767px) {
+    @media (min-width: 425px) and (max-width: 767px) {
         .container {
         width: 425px;
 
@@ -555,6 +559,10 @@ select>option:hover {
         .carousell {
             display: none;
         }
+.item-btn2 {
+        text-align: center;
+        max-width: 80%;
+    }
 
 
 
@@ -569,30 +577,25 @@ select>option:hover {
     display: block;
     width: auto;
     }
+
      .carousell {
             display: none;
         }
-
-
     .sidebar {
            display: none;
         }
+
 }
 
 
 
-/*
-    @media (min-width: 320px) and (max-width: 767px)
+@media (max-width: 424px) {
         .container {
-        width: 320px;
-        margin: 0 auto;
-    }
-    .row1 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    }
+        width: auto;
 
 
     }
-*/
+    [class*="col-"] {
+    display: block;
+    width: auto;
+    }
