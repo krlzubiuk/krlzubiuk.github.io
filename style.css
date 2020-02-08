@@ -215,7 +215,17 @@ button:hover {
     height: 400px;
     background-color:
     rgba(0,0,0,0.20);
+
+
 }
+
+
+.slider {
+    margin: 0 auto ;
+    padding: 50px 300px;
+
+}
+
 
 
 .main {
@@ -332,6 +342,24 @@ select>option:hover {
     background-image: url(images/like.png);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
+
+}
+.product-like-clicked {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: 1px solid #2c71b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #2c71b8;
+    background-image: url(images/like-clicked.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
 
 }
 /*
