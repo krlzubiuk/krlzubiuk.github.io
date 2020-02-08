@@ -316,6 +316,9 @@ select>option:hover {
     align-items: center;
     margin-top: 50px;
     margin-bottom: 65px;
+    justify-content: space-between;
+
+
 }
 
 
