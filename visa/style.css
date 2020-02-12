@@ -186,6 +186,7 @@ header {
 .ask {
     width: 90%;
     height: 380px;
+    padding-top: 20px;
     background-color: #baacf5;
     opacity: 0.8;
     border: 10px solid #9483db;
@@ -197,7 +198,9 @@ header {
 
 }
 
+
 .ask input {
+    margin-top: 10px;
     width: 85%;
     height: 42px;
     margin-bottom: 15px;
