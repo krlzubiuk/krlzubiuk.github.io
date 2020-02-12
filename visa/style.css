@@ -69,6 +69,9 @@ body {
     display:block;
     margin: 0 15px;
 }
+input[placeholder]{
+    padding-left: 10px;
+}
 button {
     color: white;
     font-size: 14px;
@@ -119,7 +122,12 @@ header {
 
 
 
+
 }
+ul>li {
+    margin: 0;
+}
+
 
 .menu a {
 
@@ -131,7 +139,7 @@ header {
     font-weight: 900;
     text-align: center;
     border-bottom: 2px solid inherit;
-    margin: 20px
+
 
 
 
@@ -185,10 +193,10 @@ header {
 }
 .ask {
     width: 90%;
-    height: 380px;
+    padding-bottom: 20px;
     padding-top: 20px;
     background-color: #baacf5;
-    opacity: 0.8;
+    opacity: 0.9;
     border: 10px solid #9483db;
     border-radius: 15px;
     box-shadow: 0px 0px 10px 10px #7668b3;
@@ -331,9 +339,7 @@ header {
 
 
 }
-.client-servise img {
-    max-width: 100%;
-}
+
 
 
 
@@ -347,10 +353,21 @@ header {
     align-items: center;
 
 }
-.features img{
+.features li:last-child{
+    margin-top: 10px;
+}
+.features div{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+
+
+
     margin-right: 15px;
 
 }
+
 
 .price>img {
     margin: 50px 0;
@@ -393,21 +410,16 @@ header {
 
 .unic-route {
     background-color: #f06292;
-
     padding: 40px 0;
     color: white;
 }
-.unic-route img {
 
-    max-width: 100%;
-}
 .decision-question {
     padding: 40px 0;
     background-color: #ffa726;
     color: white;
-
-
 }
+
 
 
 .first-travel {
@@ -460,7 +472,8 @@ header {
 }
 .map {
     display: flex;
-    max-width: 100%;
+
+    margin: 0 auto;
 }
 .inner-footer {
     background-color: #9483db;
@@ -482,9 +495,7 @@ header {
         margin: 0 auto;
     padding: 0 15px;
     }
-    .menu li {
-        margin-left: 20px;
-    }
+
     .pack-text {
        height: 380px;
 }
