@@ -309,9 +309,19 @@ footer {
     .navbar-toggler{
             border: 1px solid white;
     }
+    .inner-header {
+        padding: 0;
+    }
+    .col-md-2 {
+        margin-top:15px;
+
+    }
     .collapse a
     {
         color: white;
+    }
+    .icons {
+    height: 90px;
     }
     .container {
         width: 100%;
@@ -336,7 +346,9 @@ footer {
     .menu-icon-wrapper {
         visibility: visible;
     }
-
+.inner-social {
+        margin-top: 50px;
+    }
     .carousel1 {
         display: none;
     }
@@ -364,5 +376,8 @@ footer {
 
     .icons {
         height: 60px;
+    }
+    .inner-social {
+        margin-top: 20px;
     }
 }
