@@ -1,0 +1,26 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.carousell {
+    height: 471px;
+   
+    background-color:
+    rgba(0,0,0,0.20);
+
+
+}
+
+
+.slider {
+    margin: 0 auto ;
+
+}
+.slick-slider img {
+    width: 900px;
+    height: 471px;
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 20px;
+	
+}
